@@ -29,6 +29,6 @@ ggplot(raw, aes(x=trial, y=probability)) +
            alpha = .2, fill='skyblue') +
   annotate("text", x = 80, y = 90, label = "확률 증가 구간", family="Gowun Dodum") +
   annotate("text", x = 77, y = 86, label = "(74회부터 회당 6%p 증가)", family="Gowun Dodum") +
-  annotate("rect", xmin = 0, xmax = 74, ymin = -1, ymax = 1.6,
+  annotate("rect", xmin = 0, xmax = 74, ymin = -1, ymax = 2.0,
            alpha = .2, fill='lightgreen') +
   annotate("text", x= 6, y = 4, label = "1회~73회까지는 0.6% 고정 확률", family = "Gowun Dodum")
