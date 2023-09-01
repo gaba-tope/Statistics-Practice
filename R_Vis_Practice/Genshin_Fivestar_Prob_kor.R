@@ -18,7 +18,7 @@ ggplot(raw, aes(x=trial, y=probability)) +
   scale_y_continuous(breaks = seq(0, 110, by = 10)) + # y axis tick interval
   ggtitle("캐릭터 기원 5성 출현 확률") +
   xlab("기원 횟수")+
-  ylab("출현 확률") +
+  ylab("출현 확률 (%)") +
   theme(text=element_text(size=16,  family="Gowun Dodum"),
         plot.title = element_text(hjust = 0.5 ,size=20,family='Gowun Dodum'),
         panel.background = element_rect(fill='white', colour='black', size=1),
